@@ -1,4 +1,13 @@
-* {
+:root {
+  --Cyan: hsl(185, 75%, 39%);
+  --Dark-Blue: hsl(229, 23%, 23%);
+  --Gray-Blue: hsl(227, 10%, 46%);
+  --Dark-Gray: hsl(0, 0%, 59%);
+}
+
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -6,7 +15,7 @@
 
 html,
 body {
-  min-height: 100%;
+  height: 100%;
 }
 
 .attribution {
