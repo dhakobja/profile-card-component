@@ -21,33 +21,30 @@ body {
 body {
   font-family: "Kumbh Sans", sans-serif;
   background-color: var(--Cyan);
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
   padding: 1.5rem;
-  overflow: hidden;
 }
 
 .background-top,
 .background-bottom{
-  position: absolute;
+  position: fixed;
 }
 
 .background-top{
-  width: 23rem;
-  height: 26rem;
-  top: -10rem;
-  left: -11rem;
-  opacity: 0.5;
+  width: 45%;
+  height: 45rem;
+  top: -20rem;
+  left: 0;
 }
 
 .background-bottom{
-  width: 35rem;
-  height: 35rem;
-  bottom: -9rem;
-  right: -20rem;
+  width: 70%;
+  height: 60rem;
+  bottom: -35rem;
+  right: -10rem;
 }
 
 main {
@@ -148,22 +145,7 @@ main {
   color: var(--Dark-Gray);
 }
 
-@media(min-width:40.5rem){
-  .background-top{
-    width: 50rem;
-    height: 50rem;
-    top: -25rem;
-    left: -5rem;
-    opacity: 1;
-  }
-  
-  .background-bottom{
-    width: 50rem;
-    height: 50rem;
-    bottom: -23rem;
-    right: -5rem;
-  }
-}
+
 
 .attribution {
   font-size: 11px;
